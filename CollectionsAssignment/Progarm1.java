@@ -7,8 +7,8 @@ public class Progarm1 {
 
 	public static void main(String[] args) {
 		HashMap<Long,Contact> m=new HashMap<>();
-		m.put(9894562064l,new Contact(9894562064l,"Samba","sambasivaerala@gmail.com",Contact.Gender.Male));
-		m.put(9894562034l,new Contact(9894562034l,"Girl","Girl@gmail.com",Contact.Gender.Female));
+		m.put(9894562064l,new Contact(9894562064l,"rakesh","rakesh@gmail.com",Contact.Gender.Male));
+		m.put(9894562034l,new Contact(9894562034l,"women","women@gmail.com",Contact.Gender.Female));
 		Set<Long> keys=m.keySet();
 		System.out.println("Keys:");
 		for(long i:keys)
