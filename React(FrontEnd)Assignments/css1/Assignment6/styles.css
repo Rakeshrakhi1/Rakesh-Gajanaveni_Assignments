@@ -1,0 +1,11 @@
+table, th, td{
+    border: green;
+    border-style: solid;
+}
+th{
+    background-color: green;
+}
+table{
+    border: 1mm green;
+    border-style: dashed;
+}

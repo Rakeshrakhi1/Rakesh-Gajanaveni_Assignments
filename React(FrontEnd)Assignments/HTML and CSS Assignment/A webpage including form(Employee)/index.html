@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Employee form</title>
+</head>
+<body>
+    <div id="external">
+        <form id="form" method="post">
+            <h1 id="title">Application For Job</h1>
+            <p id="about"><strong>Note:</strong> No backlogs candidates only should fill this form.</p>
+            <fieldset>
+                <legend>Details</legend>
+                <div>
+                    <label id="label-name" for="name">Fullname:</label>
+                    <input type="text" name="name" required id="name" name="Name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label id="label-email" for="Email">Email Id:</label>
+                    <input type="email" name="Email" required id="email" placeholder="abc@gmail.com">
+                </div>
+                <div>
+                    <label id="lable-number" for="phone">Phone Number:</label>
+                    <input type="number" name="Number" id="number" placeholder="Enter the 10 number" min="1" max="9">
+                </div>
+                <div>
+                    <label  for="label-date">Date of birth:</label>
+                    <input type="date" name="birthday" id="bday">
+                </div>
+                <div>
+                    <br><br>
+                    <label for="gender">Gender:</label>
+                    <p>
+                        <input type="radio" name="gender" value="male" checked>Male <br>
+                        <input type="radio" name="gender" value="female" checked>Female <br>
+                        <input type="radio" name="gender" value="others" checked>Others
+                    </p>
+                </div>
+            </fieldset>
+                <fieldset>
+                    <legend>Extra Qualities Section</legend>
+                    <label for="hobbies">Hobbies:</label>
+                    <select  id="dropdown">
+                        <option value="cricket">Cricket</option>
+                        <option value="video games">Video games</option>
+                        <option value="khokho">Khokho</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Essay Section</legend>
+                    <div>
+                        <label for="msg"></label>
+                        <p>Tell about yourself in 100 words</p>
+                        <textarea name="about" id="msg" cols="50" rows="10" placeholder="Enter here"></textarea>
+                    </div>
+                    <p>Attach the resume here:
+                        <button>Attach File</button>
+                    </p>
+                </fieldset>
+            <div id="Submit it">
+                <button type="submit" id="submit">Submit Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
